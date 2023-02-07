@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kite+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html{font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{font-family: 'Quicksand', sans-serif;
+font-size: 15px;
+background-color: rgb(251, 246, 240);
+}
+
+h1{
+    font-size: 90px;
+    font-family: 'Kite One', sans-serif;
+}
+
+
+#flex{ 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+header{
+    background-image: url(./img/atardecer.jpg);
+    height: 75vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+*{
+    box-sizing: border-box;
+}
+    .columna-3 {
+        float: left;
+        margin: 1px;
+        padding: 1%;
+    }
+
+
+    .columna-1 {
+        float: left;
+        width: 33.33%;
+        padding: 1%;
+    
+    }
+
+
+
+    .columna-fotos{
+        float: left;
+        width: 50%;
+        padding: 1%;
+    }
+    .subtitulos{
+        background-color:  rgba(255, 255, 255, 0.929);
+    }
+  
+        .menu{
+            width: 13%;
+            background-color: rgb(245, 235, 224);
+            border-color: rgb(223, 213, 201);
+            border-width: 2px;
+            border-style:double;
+        }
+
+        .not{
+            width: 31%;
+            background-color: rgb(245, 235, 224);
+            border-color: rgb(223, 213, 201);
+            border-width: 2px;
+            border-style: solid;
+        }
+
+       
+        a{
+            color: rgb(0, 2, 14);
+            text-decoration: none;
+            font-size: 14px;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .principal{
+            color:rgb(174, 48, 48) ;
+            font-size: 17px;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        
+            h2{
+                font-size: 25px;
+                color:rgb(174, 48, 48);
+                font-family: 'Playfair Display', serif;
+            }
+
+        .contenido{
+            width: 56%;
+        }
+            h3{
+                font-size: 20px;
+                color: rgb(218, 74, 74);
+                font-family: 'Playfair Display', serif;
+            }
+
+            .row:after{
+                content: "";
+                display: flex;
+                clear: both;
+            }
+            h5{
+                font-size:17px;
+                color: rgb(4, 24, 137);
+                font-family: 'Playfair Display', serif;
+                border-color: rgb(211, 201, 188);
+                border-width: 1.5px;
+                border-style: solid;
+                background-color:white;   
+            }
+
+            h4{
+                font-size:17px;
+                color: rgb(4, 24, 137);
+                font-family: 'Playfair Display', serif;
+                 
+            }
+
+            .fotosrest{
+                width: 65%;
+                padding: 1%;
+              
+            }
+
+            
+
+            #mapa{
+                background-image: url(./img/mapaGeneral.jpg);
+                height: 50vh;
+                background-position: center;
+                background-size: cover;
+                border-color: rgb(90, 89, 89);
+                border-width: 1px;
+                border-style: solid;
+            }
+
+          
+
+            #canal{
+                background-image: url(./img/canalOlímpico.jpg);
+                height: 40vh;
+                background-position: center;
+                background-size: cover;
+            }
+
+            #anec{
+                background-image: url(./img/anecblau.jpg);
+                height: 40vh;
+                background-position: center;
+                background-size: cover;
+            }
+
+          
+
+            #iglesia{
+                background-image: url(./img/iglesia.jpg);
+                height: 40vh;
+                background-position: center;
+                background-size: cover;
+            }
+
+       
+
+            #castillo{
+                background-image: url(./img/castillo.jpg);
+                height: 40vh;
+                background-position: center;
+                background-size: cover;
+            }
+
+         
+
+            #playa{
+                
+                background-image: url(./img/playa.jpg);
+                height: 40vh;
+                background-position: center;
+                background-size: cover;
+            }
+
+         
+
+        .not{
+            width: 30%;
+        }
+     
+
+      
+.imgche {
+    height: 23vh;
+    margin-left: 105%;
+    margin-top: -100px;
+    width: 50%;}
+    
+.imgushu{
+    height: 23vh;
+    margin-left: 105%;
+    margin-top: -110px;
+    width: 50%;}
+
+    .imgrobers{
+    height: 23vh;
+    margin-top: -100px;
+    margin-left: 105%;
+   
+    width: 50%; }
+
+
+@media only screen and (max-width: 800px){
+            .columna-3{
+                width: 100%;}
+            
+            .fotos-2{
+                width: 100%;
+            }
+            .columna-1{
+                width: 100%;
+            }
+
+
+        }
